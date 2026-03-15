@@ -1,0 +1,61 @@
+:root {
+  /* 主题色与语义色 */
+  --bg-body: #f5f5fb;
+  --bg-card: #ffffff;
+  --bg-header: #ffffff;
+  --bg-footer: #ffffff;
+  --bg-hover: rgba(0, 122, 255, 0.06);
+  --border-subtle: rgba(148, 163, 184, 0.4);
+  --border-strong: rgba(148, 163, 184, 0.75);
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --primary: #007AFF;
+  --primary-soft: rgba(0, 122, 255, 0.08);
+  --primary-soft-strong: rgba(0, 122, 255, 0.12);
+  --primary-light: rgba(0, 122, 255, 0.15);
+
+  /* 圆角与阴影：社区 + 文档风 */
+  --radius-card: 18px;
+  --radius-pill: 999px;
+  --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.06);
+  --shadow-subtle: 0 1px 2px rgba(15, 23, 42, 0.04);
+
+  /* 字体系统 */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-main);
+  background-color: var(--bg-body);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg-body);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
